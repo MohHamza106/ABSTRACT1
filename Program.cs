@@ -5,6 +5,13 @@ namespace ABSTRACT1
 {
     internal class Program
     {
+        public static void process(User user, decimal price, int quantity)
+        {
+            Discount discount = user.GetDiscount();
+            decimal discountAmount = discount?.CalculateDiscount(price, quantity) ?? 0;
+
+            Console.WriteLine($"{user.username}'s discount: {discountAmount:C}");
+        }
         static void Main(string[] args)
         {
             #region Question1
@@ -75,6 +82,24 @@ namespace ABSTRACT1
             ////Class_Maths reference = new Class_Maths();// invaild Cannot create an instance of the abstract type or interface 'Class_Maths'
 
             //Class_Maths reference = new Calculator_maths();
+            #endregion
+            #region Question3
+
+            //Discount discount = new PercentageDiscount(20);
+
+            //Discount discount2 = new FlatDiscount();
+            //Discount discount3 = new BuyOneGetOneDiscount();
+            //Console.WriteLine(discount.CalculateDiscount(5, 5));
+            //Console.WriteLine(discount2.CalculateDiscount(5, 5));
+            //Console.WriteLine(discount3.CalculateDiscount(5, 5));
+            //User regularUser = new RegularUser("Ahmed");
+            //User premiumUser = new PremiumUser("ali");
+            //User guestUser = new GuestUser("mostafa");
+            //decimal price = 400m;
+            //int quantity = 6;
+            //process(regularUser, price, quantity);
+            //process(premiumUser, price, quantity);
+            //process(guestUser, price, quantity);
             #endregion
 
 
