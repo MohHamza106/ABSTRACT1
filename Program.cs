@@ -66,6 +66,17 @@ namespace ABSTRACT1
             #endregion
             #endregion
 
+            #region Question2
+            //Calculator_maths cal = new Calculator_maths();
+            //Console.WriteLine(cal.Add(8, 2));
+            //Console.WriteLine(cal.Divide(8, 2));
+            //Console.WriteLine(cal.Multiply(8, 2));
+            //Console.WriteLine(cal.Subtract(8, 2));
+            ////Class_Maths reference = new Class_Maths();// invaild Cannot create an instance of the abstract type or interface 'Class_Maths'
+
+            //Class_Maths reference = new Calculator_maths();
+            #endregion
+
 
 
 
