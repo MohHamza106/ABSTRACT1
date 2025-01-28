@@ -82,6 +82,14 @@ namespace ABSTRACT1
             ////Class_Maths reference = new Class_Maths();// invaild Cannot create an instance of the abstract type or interface 'Class_Maths'
 
             //Class_Maths reference = new Calculator_maths();
+
+
+            //Other sulation
+            //Console.WriteLine(Math1.Add(20,50));
+            //Console.WriteLine(Math1.Multiply(20,50));
+            //Console.WriteLine(Math1.Divide(20,50));
+            //Console.WriteLine(Math1.Subtract(20,50));
+
             #endregion
             #region Question3
 

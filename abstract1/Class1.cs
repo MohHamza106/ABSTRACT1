@@ -37,4 +37,26 @@ namespace ABSTRACT1.abstract1
             return -parameter1 - parameter2;
         }
     }
+    static class Math1
+    {
+        public static decimal parameter1 { get; set; }
+        public static decimal parameter2 { get; set; }
+        public static decimal Add(int parameter1, int parameter2)
+        {
+            return parameter1 + parameter2;
+        }
+        public static decimal Subtract(int parameter1, int parameter2)
+        {
+            return parameter1 - parameter2;
+        }
+        public static decimal Multiply(int parameter1, int parameter2)
+        {
+            return parameter1 * parameter2;
+        }
+        public static decimal Divide(int parameter1, int parameter2)
+        {
+            return parameter1 / parameter2;
+        }
+
+    }
 }
